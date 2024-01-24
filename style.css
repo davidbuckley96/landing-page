@@ -1,0 +1,13 @@
+/* Para que a navbar (apenas por estar fixa) deixe de cortar parte da imagem do topo*/
+body::before {
+    display: block;
+    content: '';
+    height: 60px;
+}
+
+/* Media query */
+@media (min-width: 768px) {
+    .news-input {
+        width: 50%;
+    }
+}
